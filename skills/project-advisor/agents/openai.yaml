@@ -1,0 +1,13 @@
+interface:
+  display_name: 项目顾问
+  short_description: 审查项目方向与指令，找出会改变决策的信息差，给出可执行的下一条指令
+  default_prompt: 用 $project-advisor 结合当前目标和进度，审查我准备下的指令，告诉我先做什么、需要知道什么，并给出可以直接发的下一条指令。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
